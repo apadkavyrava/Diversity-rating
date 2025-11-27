@@ -1,15 +1,13 @@
-# Diversity-rating
-Diversity index for top UK companies
+### How to run the project
 
+Open the project in Jupyter Notebook or JupyterLab.
 
-The problem was to create a rank of the best companies based on their devirsity. 
+Run the notebooks in numerical order:
 
-1. Filled all the gaps.
-  a. Use the stats.
-  b. Collecting data from third party sources.
-  c. Reasonable assumptions.
+01_Dataset_prepating_and_overview.ipynb
 
-2. Used data weights from The Sustainable Development Goals of UN.
-3. Generated the rating.
+02_Filling_Dataset.ipynb
 
-The main challenge was dramatic missing data about LGBT and disable comunities.
+03_Index_calculation.ipynb
+
+After the last notebook finishes, the final results will be saved as final.xlsx in the root directory of the project.
