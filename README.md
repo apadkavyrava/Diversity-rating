@@ -1,13 +1,5 @@
-### How to run the project
+Project Overview
 
-Open the project in Jupyter Notebook or JupyterLab.
+The goal of this project was to create the Responsibility100 Index—a corporate sustainability index focused on Equality, Diversity, and Inclusion (EDI)—using company-provided equality reports. These reports include 26 metrics that capture different aspects of company EDI performance.
 
-Run the notebooks in numerical order:
-
-01_Dataset_prepating_and_overview.ipynb
-
-02_Filling_Dataset.ipynb
-
-03_Index_calculation.ipynb
-
-After the last notebook finishes, the final results will be saved as final.xlsx in the root directory of the project.
+During the project, I prepared datasets, analyzed the data, safely imputed missing values, and designed and calculated the final Responsibility100 Index.
